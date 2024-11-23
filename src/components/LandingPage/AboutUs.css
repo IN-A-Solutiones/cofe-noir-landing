@@ -1,0 +1,23 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  color: white;
+  padding: 50px 20px;
+}
+
+.about-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.about-content h2 {
+  color: gold;
+  margin-bottom: 10px;
+}
+
+.about-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
