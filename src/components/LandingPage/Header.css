@@ -1,0 +1,29 @@
+.header {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: gold;
+}
+
+.header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.header nav ul li a:hover {
+  color: gold;
+}
