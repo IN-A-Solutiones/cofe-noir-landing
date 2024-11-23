@@ -1,0 +1,39 @@
+.products {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.products h2 {
+  color: gold;
+  margin-bottom: 20px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-card {
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.product-card h3 {
+  color: white;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
