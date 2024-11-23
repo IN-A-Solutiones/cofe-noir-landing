@@ -1,6 +1,7 @@
 import "./App.css";
 import AboutUs from "./components/LandingPage/AboutUs";
 import ContactForm from "./components/LandingPage/ContactForm";
+import Footer from "./components/LandingPage/Footer";
 import Header from "./components/LandingPage/Header";
 import HeroSection from "./components/LandingPage/HeroSection";
 import Location from "./components/LandingPage/Location";
@@ -17,6 +18,7 @@ function App() {
       <Testimonilas />
       <Location />
       <ContactForm />
+      <Footer />
     </>
   );
 }
