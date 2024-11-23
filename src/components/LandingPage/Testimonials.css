@@ -1,0 +1,33 @@
+.testimonials {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.testimonials h2 {
+  color: gold;
+  margin-bottom: 20px;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.review {
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.review p {
+  font-style: italic;
+}
+
+.review h4 {
+  margin-top: 10px;
+  color: gold;
+}
