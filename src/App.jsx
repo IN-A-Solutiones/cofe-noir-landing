@@ -1,5 +1,6 @@
 import "./App.css";
 import AboutUs from "./components/LandingPage/AboutUs";
+import ContactForm from "./components/LandingPage/ContactForm";
 import Header from "./components/LandingPage/Header";
 import HeroSection from "./components/LandingPage/HeroSection";
 import Location from "./components/LandingPage/Location";
@@ -15,6 +16,7 @@ function App() {
       <Products />
       <Testimonilas />
       <Location />
+      <ContactForm />
     </>
   );
 }
