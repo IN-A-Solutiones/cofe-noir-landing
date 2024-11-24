@@ -1,8 +1,14 @@
 import React from "react";
 import "./Products.css";
+import Product1 from "../../assets/pictures/LandingPage/product1.webp";
+
 const Products = () => {
   const products = [
-    { id: 1, name: "Házi málnatorta", image: "/images/product1.jpg" },
+    {
+      id: 1,
+      name: "Házi málnatorta",
+      image: Product1,
+    },
     { id: 2, name: "Barista Latte Art", image: "/images/product2.jpg" },
     { id: 3, name: "Epres sajttorta", image: "/images/product3.jpg" },
   ];

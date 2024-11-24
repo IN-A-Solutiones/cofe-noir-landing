@@ -1,5 +1,8 @@
 .hero {
-  background: url("/images/hero-bg.jpg") no-repeat center center / cover;
+  background: url("../../assets/pictures/LandingPage/hero-bg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   color: white;
   text-align: center;
   padding: 100px 20px;

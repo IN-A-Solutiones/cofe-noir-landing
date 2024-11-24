@@ -1,6 +1,8 @@
 import React from "react";
 import "./AboutUs.css";
 
+import Interior from "../../assets/pictures/LandingPage/about-us.webp";
+
 const AboutUs = () => {
   return (
     <section id="about" className="about">
@@ -13,7 +15,7 @@ const AboutUs = () => {
         </p>
       </div>
       <div className="about-image">
-        <img src="/images/about-us.jpg" alt="Kávézó belső tér" />
+        <img src={Interior} alt="Kávézó belső tér" />
       </div>
     </section>
   );
