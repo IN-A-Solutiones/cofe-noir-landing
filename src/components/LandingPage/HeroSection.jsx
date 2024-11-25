@@ -1,12 +1,15 @@
 import React from "react";
 import "./HeroSection.css";
+import { useTranslation } from "react-i18next";
 
 const HeroSection = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="hero">
-      <h1>Üdvözlünk a Café Noir világában</h1>
-      <p>Ahol a kávé és sütemények művészetté válnak.</p>
-      <button>Fedezd fel menünket</button>
+      <h1>{t("HERO.TITLE")}</h1>
+      <p>{t("HERO.P")}.</p>
+      <button>{t("HERO.BUTTON")}</button>
     </section>
   );
 };

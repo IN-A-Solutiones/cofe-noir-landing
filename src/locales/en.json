@@ -1,6 +1,19 @@
 {
   "HEADER": {
-    "NAVBAR1" : "About US"
+    "NAVBAR1" : "About US",
+    "NAVBAR2" : "Menu",
+    "NAVBAR3" : "Contact Us"
+  },
+
+  "HERO": {
+    "TITLE": "Welcome to the world of Café Noir",
+    "P": "Where coffee and pastries become art.",
+    "BUTTON": "Discover our menu"
+  },
+
+  "ABOUTUS": {
+    "TITLE": "About us",
+    "P": "Café Noir is not just a place, it's an experience. Quality coffee, artisanal pastries, and a modern urban atmosphere await you every time you visit."
   }
 
 }

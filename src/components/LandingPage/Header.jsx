@@ -8,9 +8,9 @@ const Header = () => {
 
   // List of available languages
   const languages = [
-    { code: "hu", label: "HU" },
     { code: "en", label: "EN" },
     { code: "es", label: "ES" },
+    { code: "hu", label: "HU" },
   ];
 
   const changeLanguage = (lng) => {
@@ -26,10 +26,10 @@ const Header = () => {
             <a href="#about">{t("HEADER.NAVBAR1")}</a>
           </li>
           <li>
-            <a href="#menu">Menü</a>
+            <a href="#menu">{t("HEADER.NAVBAR2")}</a>
           </li>
           <li>
-            <a href="#contact">Kapcsolat</a>
+            <a href="#contact">{t("HEADER.NAVBAR3")}</a>
           </li>
           <li>
             <div className="language-selector">

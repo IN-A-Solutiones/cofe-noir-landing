@@ -1,7 +1,20 @@
 {
-  
+
   "HEADER": {
-    "NAVBAR1" : "Rólunk"
+    "NAVBAR1" : "Rólunk",
+    "NAVBAR2" : "Menü",
+    "NAVBAR3" : "Kapcsolat"
+  },
+
+  "HERO": {
+    "TITLE": "Üdvözlünk a Café Noir világában",
+    "P": "Ahol a kávé és sütemények művészetté válnak.",
+    "BUTTON": "Fedezd fel menünket"
+  },
+
+  "ABOUTUS": {
+    "TITLE": "Rólunk",
+    "P": "Ahol a kávé és sütemények művészetté válnak."
   }
-  
+
 }
