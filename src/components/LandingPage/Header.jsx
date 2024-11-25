@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
 import { useTranslation } from "react-i18next";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   const { t } = useTranslation();
@@ -23,13 +24,16 @@ const Header = () => {
       <nav>
         <ul>
           <li>
-            <a href="#about">{t("HEADER.NAVBAR1")}</a>
+            <NavLink to={"/"}>{t("HEADER.NAVBAR1")}</NavLink>
           </li>
           <li>
-            <a href="#menu">{t("HEADER.NAVBAR2")}</a>
+            <a href="#about">{t("HEADER.NAVBAR2")}</a>
           </li>
           <li>
-            <a href="#contact">{t("HEADER.NAVBAR3")}</a>
+            <NavLink to={"/menu"}>{t("HEADER.NAVBAR3")}</NavLink>
+          </li>
+          <li>
+            <a href="#contact">{t("HEADER.NAVBAR4")}</a>
           </li>
           <li>
             <div className="language-selector">

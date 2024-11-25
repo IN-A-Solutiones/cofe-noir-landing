@@ -1,9 +1,10 @@
 {
 
   "HEADER": {
-    "NAVBAR1" : "Sobre nosotros",
-    "NAVBAR2" : "Menú",
-    "NAVBAR3" : "Contacto"
+    "NAVBAR1" : "Inicio",
+    "NAVBAR2" : "Sobre nosotros",
+    "NAVBAR3" : "Menú",
+    "NAVBAR4" : "Contacto"
   },
 
   "HERO": {

@@ -1,9 +1,10 @@
 {
 
   "HEADER": {
-    "NAVBAR1" : "Rólunk",
-    "NAVBAR2" : "Menü",
-    "NAVBAR3" : "Kapcsolat"
+    "NAVBAR1" : "Főoldal",
+    "NAVBAR2" : "Rólunk",
+    "NAVBAR3" : "Menü",
+    "NAVBAR4" : "Kapcsolat"
   },
 
   "HERO": {
