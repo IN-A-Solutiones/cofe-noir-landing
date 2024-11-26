@@ -7,9 +7,11 @@ const HeroSection = () => {
 
   return (
     <section className="hero">
-      <h1>{t("HERO.TITLE")}</h1>
-      <p>{t("HERO.P")}.</p>
-      <button>{t("HERO.BUTTON")}</button>
+      <div className="hero-container">
+        <h1>{t("HERO.TITLE")}</h1>
+        <p>{t("HERO.P")}.</p>
+        <button>{t("HERO.BUTTON")}</button>
+      </div>
     </section>
   );
 };
