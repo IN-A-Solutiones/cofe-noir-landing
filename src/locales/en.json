@@ -35,6 +35,10 @@
     "TEXT1" : "The strawberry cheesecake was heavenly!",
     "TEXT2" : "Café Noir is a truly relaxing place, where every coffee and cake guarantees the perfect experience!",
     "TEXT3" : "Their coffee and service are first class."
+  },
+
+  "LOCATION" : {
+    "TITLE" : "Where can you find us?"
   }
 
 }

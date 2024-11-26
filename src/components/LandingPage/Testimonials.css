@@ -14,6 +14,8 @@
   display: flex;
   justify-content: center;
   gap: 20px;
+  flex-wrap: wrap;
+  /* Allow reviews to wrap to the next line on smaller screens */
 }
 
 .review {
@@ -21,6 +23,7 @@
   padding: 20px;
   border-radius: 10px;
   width: 400px;
+  transition: transform 0.3s;
 }
 
 .review p {
@@ -30,4 +33,48 @@
 .review h4 {
   margin-top: 10px;
   color: gold;
+}
+
+@media (max-width: 1024px) {
+  .review {
+    width: 300px;
+    /* Make reviews smaller on medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .reviews {
+    flex-direction: column;
+    /* Stack reviews vertically on smaller screens */
+    gap: 30px;
+  }
+
+  .review {
+    width: 80%;
+    /* Take up 80% of the screen width on tablets */
+    padding: 1.5rem;
+  }
+
+  .testimonials h2 {
+    font-size: 1.5rem;
+    /* Adjust title size on tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .reviews {
+    gap: 15px;
+    /* Reduce gap on very small screens */
+  }
+
+  .review {
+    width: 100%;
+    /* Full width on mobile */
+    padding: 1rem;
+  }
+
+  .testimonials h2 {
+    font-size: 1.2rem;
+    /* Smaller title on mobile */
+  }
 }

@@ -36,6 +36,10 @@
     "TEXT1" : "¡La tarta de queso y fresa estaba celestial!",
     "TEXT2" : "Café Noir es un lugar verdaderamente relajante, donde cada café y pastel garantiza la experiencia perfecta.",
     "TEXT3" : "Su café y servicio son de primera clase."
+  },
+
+  "LOCATION" : {
+    "TITLE" : "¿Donde puedes encontrarnos?"
   }
 
 }
