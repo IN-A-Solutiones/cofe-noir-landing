@@ -16,5 +16,19 @@
   "ABOUTUS": {
     "TITLE": "Sobre nosotros",
     "P": "Café Noir no es sólo un lugar, sino una experiencia. Café de calidad, pasteles hechos a mano y un ambiente urbano moderno te esperan en cada visita."
+  },
+
+  "PRODUCT" : {
+    "TITLE": "Nuestros productos más populares",
+
+    "1_TITLE" : "Tarta de queso y frutos rojos",
+    "1_SUMMARY": "Deléitese con nuestra cremosa tarta de queso cubierta con bayas frescas.",
+
+    "2_TITLE" : "Arte del café con leche de Barista",
+    "2_SUMMARY": "Un café con leche clásico con un toque de amor, perfecto para cualquier amante del café.",
+
+    "3_TITLE" : "Sándwich gourmet",
+    "3_SUMMARY": "Elaborados con los ingredientes más frescos, nuestros sándwiches son un deleite para el sabor."
   }
+
 }

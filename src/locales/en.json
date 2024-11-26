@@ -15,6 +15,19 @@
   "ABOUTUS": {
     "TITLE": "About us",
     "P": "Café Noir is not just a place, it's an experience. Quality coffee, artisanal pastries, and a modern urban atmosphere await you every time you visit."
+  },
+
+  "PRODUCT" : {
+    "TITLE": "Our most popular products",
+
+    "1_TITLE" : "Berry Cheesecake",
+    "1_SUMMARY": "Indulge in our creamy cheesecake topped with fresh berries.",
+
+    "2_TITLE" : "Barista Latte Art",
+    "2_SUMMARY": "A classic latte with a touch of love, perfect for any coffee lover.",
+
+    "3_TITLE" : "Gourmet szendvics",
+    "3_SUMMARY": "Crafted with the freshest ingredients, our sandwiches are a taste delight."
   }
 
 }

@@ -16,6 +16,19 @@
   "ABOUTUS": {
     "TITLE": "Rólunk",
     "P": "A Café Noir nem csak egy hely, hanem egy élmény. Minőségi kávé, kézműves péksütemények és modern városi hangulat várja Önt minden alkalommal, amikor meglátogatja."
+  },
+
+  "PRODUCT" : {
+    "TITLE": "Legnépszerűbb termékeink",
+
+    "1_TITLE" : "Áfonyás sajttorta",
+    "1_SUMMARY": "Kényeztesse magát tejszínes sajttortánkkal friss bogyós gyümölcsökkel.",
+
+    "2_TITLE" : "Barista Latte Art",
+    "2_SUMMARY": "Klasszikus latte egy csipetnyi szeretettel, tökéletes minden kávérajongó számára.",
+
+    "3_TITLE" : "Gourmet szendvics",
+    "3_SUMMARY": "A legfrissebb alapanyagokból készült szendvicseink ízletesek."
   }
 
 }

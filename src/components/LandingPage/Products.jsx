@@ -3,35 +3,36 @@ import "./Products.css";
 import Product1 from "../../assets/pictures/LandingPage/BerryCheesecakeImage.webp";
 import Product2 from "../../assets/pictures/LandingPage/LatteArtImage.webp";
 import Product3 from "../../assets/pictures/LandingPage/GourmetSandwichImage.png";
+import { useTranslation } from "react-i18next";
 
 const Products = () => {
+  const { t } = useTranslation();
+
   const products = [
     {
       id: 1,
       image: Product1,
-      name: "Berry Cheesecake",
-      summary: "Indulge in our creamy cheesecake topped with fresh berries.",
+      name: t("PRODUCT.1_TITLE"),
+      summary: t("PRODUCT.1_SUMMARY"),
     },
 
     {
       id: 2,
-      name: "Barista Latte Art",
+      name: t("PRODUCT.2_TITLE"),
       image: Product2,
-      summary:
-        "A classic latte with a touch of love, perfect for any coffee lover.",
+      summary: t("PRODUCT.2_SUMMARY"),
     },
 
     {
       id: 3,
-      name: "Gourmet Sandwich",
+      name: t("PRODUCT.3_TITLE"),
       image: Product3,
-      summary:
-        "Crafted with the freshest ingredients, our sandwiches are a taste delight.",
+      summary: t("PRODUCT.3_SUMMARY"),
     },
   ];
   return (
     <section id="menu" className="products">
-      <h2>Legnépszerűbb termékeink</h2>
+      <h2>{t("PRODUCT.TITLE")}</h2>
       <div className="product-list">
         {products.map((product) => (
           <div key={product.id} className="product-card">
