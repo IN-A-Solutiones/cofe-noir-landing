@@ -24,6 +24,16 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const handleScrollToSection = (sectionId) => {
+    setTimeout(() => {
+      const section = document.getElementById(sectionId); // Szekció keresése ID alapján
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" }); // Simán görget a szekcióhoz
+      }
+    }, 100); // Várakozási idő, hogy az oldal betöltődjön
+    setIsMenuOpen(false); // Menü bezárása
+  };
+
   return (
     <header className="header">
       <div className="logo">Café Noir</div>
@@ -45,9 +55,15 @@ const Header = () => {
             </NavLink>
           </li>
           <li>
-            <a href="#about" onClick={toggleMobileMenu}>
+            <NavLink
+              to={"/"}
+              onClick={() => {
+                toggleMobileMenu;
+                handleScrollToSection("about");
+              }}
+            >
               {t("HEADER.NAVBAR2")}
-            </a>
+            </NavLink>
           </li>
           <li>
             <NavLink to={"/menu"} onClick={toggleMobileMenu}>
@@ -55,9 +71,15 @@ const Header = () => {
             </NavLink>
           </li>
           <li>
-            <a href="#contact" onClick={toggleMobileMenu}>
+            <NavLink
+              to={"/"}
+              onClick={() => {
+                toggleMobileMenu;
+                handleScrollToSection("contact");
+              }}
+            >
               {t("HEADER.NAVBAR4")}
-            </a>
+            </NavLink>
           </li>
         </ul>
       </nav>

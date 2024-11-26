@@ -10,26 +10,31 @@
 
 .menu h2 {
   font-size: 24px;
+  text-align: center;
 }
 
 .menu-card-container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem;
 }
 
 .menu-card {
-  width: 432px;
+  width: 100%;
+  max-width: 300px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 0.75rem;
   padding: 2rem;
   border-radius: 24px;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.05);
   box-shadow: 2px 0px 10px rgba(3, 3, 3, 0.1);
 }
 
 .menu-card img {
+  width: 100%;
   border-radius: 12px;
 }
 
@@ -43,14 +48,78 @@
 
 .menu-card button {
   cursor: pointer;
-  width: 384px;
-  height: 36px;
-  padding: 0px 8px;
-  border: 0;
+  width: 100%;
+  padding: 8px 16px;
+  border: none;
   border-radius: 24px;
   background-color: #030303;
   color: #ffffff;
   font-size: 14px;
   line-height: 20px;
   outline: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .menu-card-container {
+    gap: 1.5rem;
+  }
+
+  .menu-card {
+    max-width: 300px;
+  }
+
+  .menu-card p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu h2 {
+    font-size: 20px;
+  }
+
+  .menu-card-container {
+    gap: 1rem;
+  }
+
+  .menu-card {
+    padding: 1.5rem;
+    max-width: 100%;
+  }
+
+  .menu-card h3 {
+    font-size: 18px;
+  }
+
+  .menu-card p {
+    font-size: 14px;
+  }
+
+  .menu-card button {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .menu {
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+
+  .menu-card {
+    padding: 1rem;
+  }
+
+  .menu-card h3 {
+    font-size: 16px;
+  }
+
+  .menu-card p {
+    font-size: 12px;
+  }
+
+  .menu-card button {
+    padding: 6px 12px;
+    font-size: 10px;
+  }
 }

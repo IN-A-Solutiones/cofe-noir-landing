@@ -1,6 +1,7 @@
 import React from "react";
 import "./HeroSection.css";
 import { useTranslation } from "react-i18next";
+import { NavLink } from "react-router-dom";
 
 const HeroSection = () => {
   const { t } = useTranslation();
@@ -10,7 +11,9 @@ const HeroSection = () => {
       <div className="hero-container">
         <h1>{t("HERO.TITLE")}</h1>
         <p>{t("HERO.P")}.</p>
-        <button>{t("HERO.BUTTON")}</button>
+        <NavLink to={"/menu"}>
+          <button>{t("HERO.BUTTON")}</button>
+        </NavLink>
       </div>
     </section>
   );
