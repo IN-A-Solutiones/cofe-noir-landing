@@ -1,9 +1,11 @@
 .header {
+  width: 100%;
   background: black;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   padding: 10px 20px;
 }
 
@@ -16,12 +18,14 @@
 .header nav ul {
   display: flex;
   list-style: none;
-  gap: 20px;
+  gap: 2rem;
+  font-size: 16px;
 }
 
 .header nav ul li a {
   color: white;
   text-decoration: none;
+  transition: all 0.3s ease;
 }
 
 .header nav ul li a:hover {
@@ -30,40 +34,116 @@
 
 .language-selector {
   display: flex;
-  /* Arrange buttons in a row */
   align-items: center;
-  /* Align buttons vertically */
+  justify-content: center;
   gap: 10px;
-  /* Space between buttons */
 }
 
 .language-button {
   background-color: transparent;
-  /* Transparent background */
   color: white;
-  /* White text */
   border: 1px solid white;
-  /* White border */
   border-radius: 5px;
-  /* Rounded corners */
   padding: 5px 10px;
-  /* Button padding */
   cursor: pointer;
-  /* Pointer cursor on hover */
   transition: all 0.3s ease;
-  /* Smooth hover effect */
 }
 
 .language-button:hover {
   background-color: white;
-  /* White background on hover */
   color: black;
-  /* Black text on hover */
 }
 
-.language-button:focus {
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 100;
+}
+
+.bar {
+  width: 2rem;
+  height: 0.25rem;
+  background: white;
+  border-radius: 10px;
+  transition: all 0.3s linear;
+  position: relative;
+  transform-origin: 1px;
+}
+
+/* .language-button:focus {
   outline: none;
-  /* Remove default focus outline */
-  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
-  /* Add a glowing effect */
+  background-color: white;
+  color: black;
+} */
+
+@media screen and (max-width: 768px) {
+
+  /* Hamburger Menu */
+  .hamburger {
+    display: flex;
+  }
+
+  /* Hamburger Animation */
+  .hamburger.is-active .bar:first-child {
+    transform: rotate(45deg);
+  }
+
+  .hamburger.is-active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.is-active .bar:last-child {
+    transform: rotate(-45deg);
+  }
+
+  /* Mobile Navigation */
+  .main-nav {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: top 0.3s ease;
+    z-index: 50;
+  }
+
+  .main-nav.is-active {
+    top: 0;
+  }
+
+  .main-nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .language-selector {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: top 0.3s ease;
+    z-index: 50;
+  }
+
+  .language-selector.is-active {
+    top: 0;
+  }
 }
