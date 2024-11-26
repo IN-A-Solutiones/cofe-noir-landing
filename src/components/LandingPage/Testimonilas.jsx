@@ -1,15 +1,33 @@
 import React from "react";
 import "./Testimonials.css";
+import { useTranslation } from "react-i18next";
 
 const Testimonilas = () => {
+  const { t } = useTranslation();
+
   const reviews = [
-    { id: 1, text: "Az epres sajttorta mennyei volt!", author: "Anna" },
-    { id: 2, text: "A kávéjuk és a kiszolgálás elsőosztályú.", author: "Béla" },
+    {
+      id: 1,
+      text: t("TESTIMONIALS.TEXT1"),
+      author: "Anna",
+    },
+
+    {
+      id: 2,
+      text: t("TESTIMONIALS.TEXT2"),
+      author: "Kate",
+    },
+
+    {
+      id: 3,
+      text: t("TESTIMONIALS.TEXT3"),
+      author: "Thomas",
+    },
   ];
 
   return (
     <section className="testimonials">
-      <h2>Vélemények</h2>
+      <h2>{t("TESTIMONIALS.TITLE")}</h2>
       <div className="reviews">
         {reviews.map((review) => (
           <div key={review.id} className="review">

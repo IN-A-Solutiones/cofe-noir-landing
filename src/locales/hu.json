@@ -29,6 +29,13 @@
 
     "3_TITLE" : "Gourmet szendvics",
     "3_SUMMARY": "A legfrissebb alapanyagokból készült szendvicseink ízletesek."
+  },
+
+  "TESTIMONIALS" : {
+    "TITLE" : "Vélemények",
+    "TEXT1" : "Az epres sajttorta mennyei volt!",
+    "TEXT2" : "A Café Noir egy igazi kikapcsolódást nyújtó hely, ahol minden egyes kávé és sütemény a tökéletes élményt garantálja!",
+    "TEXT3" : "A kávéjuk és a kiszolgálás elsőosztályú."
   }
 
 }

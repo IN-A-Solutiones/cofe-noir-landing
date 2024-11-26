@@ -28,6 +28,13 @@
 
     "3_TITLE" : "Gourmet szendvics",
     "3_SUMMARY": "Crafted with the freshest ingredients, our sandwiches are a taste delight."
+  },
+
+  "TESTIMONIALS" : {
+    "TITLE" : "Reviews",
+    "TEXT1" : "The strawberry cheesecake was heavenly!",
+    "TEXT2" : "Café Noir is a truly relaxing place, where every coffee and cake guarantees the perfect experience!",
+    "TEXT3" : "Their coffee and service are first class."
   }
 
 }
