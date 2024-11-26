@@ -40,6 +40,18 @@
 
   "LOCATION" : {
     "TITLE" : "¿Donde puedes encontrarnos?"
+  },
+
+  "CONTACT" : {
+    "TITLE" : "Contacta con nosotros",
+    "INPUT1" : "Nombre",
+    "INPUT2" : "Correo electrónico",
+    "INPUT3" : "Mensaje",
+    "BUTTON" : "Enviar"
+  },
+
+  "FOOTER" : {
+    "COPYWRITE" : "Reservados todos los derechos."
   }
 
 }

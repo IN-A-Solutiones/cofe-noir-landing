@@ -39,6 +39,18 @@
 
   "LOCATION" : {
     "TITLE" : "Where can you find us?"
+  },
+
+  "CONTACT" : {
+    "TITLE" : "Contact Us",
+    "INPUT1" : "Name",
+    "INPUT2" : "Email",
+    "INPUT3" : "Message",
+    "BUTTON" : "Send"
+  },
+
+  "FOOTER" : {
+    "COPYWRITE" : "All rights reserved."
   }
 
 }

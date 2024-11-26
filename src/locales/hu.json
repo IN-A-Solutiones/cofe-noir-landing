@@ -40,6 +40,18 @@
 
   "LOCATION" : {
     "TITLE" : "Hol találsz minket?"
+  },
+
+  "CONTACT" : {
+    "TITLE" : "Kapcsolat",
+    "INPUT1" : "Név",
+    "INPUT2" : "Email",
+    "INPUT3" : "Üzenet",
+    "BUTTON" : "Küldés"
+  },
+
+  "FOOTER" : {
+    "COPYWRITE" : "Minden jog fenntartva."
   }
 
 }

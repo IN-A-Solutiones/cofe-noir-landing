@@ -5,7 +5,14 @@
   padding: 50px 20px;
 }
 
+.contact h2 {
+  margin-bottom: 20px;
+  color: gold;
+}
+
 .contact form {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,6 +35,7 @@
   padding: 10px 20px;
   color: black;
   cursor: pointer;
+  border-radius: 12px;
 }
 
 .contact button:hover {
