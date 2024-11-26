@@ -51,6 +51,12 @@
 
   "FOOTER" : {
     "COPYWRITE" : "All rights reserved."
+  },
+
+  "BREAKFASTDATAS" : {
+    "TITLE1" : "Pancakes",
+    "SUMMARY1" : "Fluffy pancakes served with maple syrup and fresh berries.",
+    "PRICE1" : ""
   }
 
 }

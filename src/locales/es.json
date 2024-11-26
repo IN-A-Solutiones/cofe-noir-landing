@@ -52,6 +52,12 @@
 
   "FOOTER" : {
     "COPYWRITE" : "Reservados todos los derechos."
+  },
+
+  "BREAKFASTDATAS" : {
+    "TITLE1" : "Panqueques",
+    "SUMMARY1" : "Panqueques esponjosos servidos con jarabe de arce y bayas frescas.",
+    "PRICE1" : ""
   }
 
 }

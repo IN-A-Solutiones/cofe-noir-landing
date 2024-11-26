@@ -52,6 +52,12 @@
 
   "FOOTER" : {
     "COPYWRITE" : "Minden jog fenntartva."
+  },
+
+  "BREAKFASTDATAS" : {
+    "TITLE1" : "Palacsinták",
+    "SUMMARY1" : "Puha palacsinták juharsziruppal és friss bogyós gyümölcsökkel.",
+    "PRICE1" : ""
   }
 
 }
