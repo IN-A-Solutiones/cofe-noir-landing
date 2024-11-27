@@ -54,10 +54,21 @@
     "COPYWRITE" : "Reservados todos los derechos."
   },
 
+  "MENU": {
+    "TITLE1" : "",
+    "TITLE2" : "",
+    "TITLE3" : "",
+    "TITLE4" : ""
+  },
+
   "BREAKFASTDATAS" : {
     "TITLE1" : "Panqueques",
     "SUMMARY1" : "Panqueques esponjosos servidos con jarabe de arce y bayas frescas.",
-    "PRICE1" : ""
+    "TITLE2" : "Bandeja de desayuno",
+    "SUMMARY2" : "Incluye huevos revueltos, tocino crujiente y tostadas con mantequilla.",
+    "TITLE3" : "Oatmeal",
+    "SUMMARY3" : "Warm oatmeal topped with sliced bananas and almonds."
+
   }
 
 }

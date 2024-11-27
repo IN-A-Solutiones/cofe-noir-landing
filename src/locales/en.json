@@ -53,10 +53,20 @@
     "COPYWRITE" : "All rights reserved."
   },
 
+  "MENU": {
+    "TITLE1" : "",
+    "TITLE2" : "",
+    "TITLE3" : "",
+    "TITLE4" : ""
+  },
+
   "BREAKFASTDATAS" : {
     "TITLE1" : "Pancakes",
     "SUMMARY1" : "Fluffy pancakes served with maple syrup and fresh berries.",
-    "PRICE1" : ""
+    "TITLE2" : "Breakfast Platter",
+    "SUMMARY2" : "Includes scrambled eggs, crispy bacon, and buttered toast.",
+    "TITLE3" : "Oatmeal",
+    "SUMMARY3" : "Warm oatmeal topped with sliced bananas and almonds."
   }
 
 }

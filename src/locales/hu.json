@@ -54,10 +54,21 @@
     "COPYWRITE" : "Minden jog fenntartva."
   },
 
+  "MENU": {
+    "TITLE1" : "",
+    "TITLE2" : "",
+    "TITLE3" : "",
+    "TITLE4" : ""
+  },
+
   "BREAKFASTDATAS" : {
     "TITLE1" : "Palacsinták",
     "SUMMARY1" : "Puha palacsinták juharsziruppal és friss bogyós gyümölcsökkel.",
-    "PRICE1" : ""
+    "TITLE2" : "Reggeli tál",
+    "SUMMARY2" : "Tartalmaz rántottát, ropogós szalonnát és vajas pirítóst.",
+    "TITLE3" : "Oatmeal",
+    "SUMMARY3" : "Warm oatmeal topped with sliced bananas and almonds."
+
   }
 
 }
