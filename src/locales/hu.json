@@ -55,10 +55,10 @@
   },
 
   "MENU": {
-    "TITLE1" : "",
-    "TITLE2" : "",
-    "TITLE3" : "",
-    "TITLE4" : ""
+    "TITLE1" : "Reggeli",
+    "TITLE2" : "Ebéd",
+    "TITLE3" : "Sütemények",
+    "TITLE4" : "Italok"
   },
 
   "BREAKFASTDATAS" : {
@@ -66,9 +66,17 @@
     "SUMMARY1" : "Puha palacsinták juharsziruppal és friss bogyós gyümölcsökkel.",
     "TITLE2" : "Reggeli tál",
     "SUMMARY2" : "Tartalmaz rántottát, ropogós szalonnát és vajas pirítóst.",
-    "TITLE3" : "Oatmeal",
-    "SUMMARY3" : "Warm oatmeal topped with sliced bananas and almonds."
+    "TITLE3" : "Zabpehely",
+    "SUMMARY3" : "Meleg zabpehely szeletelt banánnal és mandulával."
+  },
 
+  "LUNCHDATAS" : {
+    "TITLE1" : "Pulyka szendvics",
+    "SUMMARY1" : "Pulyka szendvics svájci sajttal és friss salátával.",
+    "TITLE2" : "Cézár saláta",
+    "SUMMARY2" : "Klasszikus cézár saláta grillezett csirkével és krutonnal.",
+    "TITLE3" : "Paradicsomleves",
+    "SUMMARY3" : "Krémes paradicsomleves friss bazsalikomlevéllel körítve."
   }
 
 }

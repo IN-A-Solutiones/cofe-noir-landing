@@ -55,10 +55,10 @@
   },
 
   "MENU": {
-    "TITLE1" : "",
-    "TITLE2" : "",
-    "TITLE3" : "",
-    "TITLE4" : ""
+    "TITLE1" : "Desayuno",
+    "TITLE2" : "Almuerzo",
+    "TITLE3" : "Pasteles",
+    "TITLE4" : "Bebidas"
   },
 
   "BREAKFASTDATAS" : {
@@ -66,9 +66,17 @@
     "SUMMARY1" : "Panqueques esponjosos servidos con jarabe de arce y bayas frescas.",
     "TITLE2" : "Bandeja de desayuno",
     "SUMMARY2" : "Incluye huevos revueltos, tocino crujiente y tostadas con mantequilla.",
-    "TITLE3" : "Oatmeal",
-    "SUMMARY3" : "Warm oatmeal topped with sliced bananas and almonds."
+    "TITLE3" : "Avena",
+    "SUMMARY3" : "Avena tibia cubierta con rodajas de plátano y almendras."
+  },
 
+  "LUNCHDATAS" : {
+    "TITLE1" : "Sándwich de pavo",
+    "SUMMARY1" : "Sándwich de pavo con queso suizo y lechuga fresca.",
+    "TITLE2" : "Ensalada Cesar",
+    "SUMMARY2" : "Ensalada César clásica con pollo a la parrilla y crutones.",
+    "TITLE3" : "Sopa de tomate",
+    "SUMMARY3" : "Sopa cremosa de tomate adornada con hojas de albahaca fresca."
   }
 
 }

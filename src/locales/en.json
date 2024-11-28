@@ -54,10 +54,10 @@
   },
 
   "MENU": {
-    "TITLE1" : "",
-    "TITLE2" : "",
-    "TITLE3" : "",
-    "TITLE4" : ""
+    "TITLE1" : "Breakfast",
+    "TITLE2" : "Lunch",
+    "TITLE3" : "Pastries",
+    "TITLE4" : "Beverages"
   },
 
   "BREAKFASTDATAS" : {
@@ -67,6 +67,15 @@
     "SUMMARY2" : "Includes scrambled eggs, crispy bacon, and buttered toast.",
     "TITLE3" : "Oatmeal",
     "SUMMARY3" : "Warm oatmeal topped with sliced bananas and almonds."
+  },
+
+  "LUNCHDATAS" : {
+    "TITLE1" : "Turkey Sandwich",
+    "SUMMARY1" : "Turkey sandwich with Swiss cheese and fresh lettuce.",
+    "TITLE2" : "Caesar Salad",
+    "SUMMARY2" : "Ensalada César clásica con pollo a la parrilla y crutones.",
+    "TITLE3" : "Tomato Soup",
+    "SUMMARY3" : "Creamy tomato soup garnished with fresh basil leaves."
   }
 
 }

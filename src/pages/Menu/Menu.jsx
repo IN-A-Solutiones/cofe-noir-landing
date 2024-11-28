@@ -58,8 +58,8 @@ const Menu = () => {
       id: 3,
       image: OatmealImage,
       alt: "Oatmeal",
-      title: "Oatmeal",
-      summary: "Warm oatmeal topped with sliced bananas and almonds.",
+      title: t("BREAKFASTDATAS.TITLE3"),
+      summary: t("BREAKFASTDATAS.SUMMARY2"),
       price: "6.99",
     },
   ];
@@ -69,8 +69,8 @@ const Menu = () => {
       id: 1,
       image: TurkeySandwichImage,
       alt: "Turkey Sandwich",
-      title: "Turkey Sandwich",
-      summary: "Turkey sandwich with Swiss cheese and fresh lettuce.",
+      title: t("LUNCHDATAS.TITLE1"),
+      summary: t("LUNCHDATAS.SUMMARY1"),
       price: "9.99",
     },
 
@@ -78,8 +78,8 @@ const Menu = () => {
       id: 2,
       image: CaesarSaladImage,
       alt: "Caesar Salad",
-      title: "Caesar Salad",
-      summary: "Classic Caesar salad with grilled chicken and croutons.",
+      title: t("LUNCHDATAS.TITLE2"),
+      summary: t("LUNCHDATAS.SUMMARY2"),
       price: "10.99",
     },
 
@@ -87,8 +87,8 @@ const Menu = () => {
       id: 3,
       image: TomatoSoupImage,
       alt: "Tomato Soup",
-      title: "Tomato Soup",
-      summary: "Creamy tomato soup garnished with fresh basil leaves.",
+      title: t("LUNCHDATAS.TITLE3"),
+      summary: t("LUNCHDATAS.SUMMARY3"),
       price: "7.99",
     },
   ];
@@ -151,7 +151,7 @@ const Menu = () => {
 
   return (
     <div className="menu">
-      <h2>Breakfast</h2>
+      <h2>{t("MENU.TITLE1")}</h2>
       <div className="menu-card-container">
         {BreakfastDatas.map((data) => {
           const { price, currency } = convertPrice(data.price);
@@ -169,7 +169,7 @@ const Menu = () => {
         })}
       </div>
 
-      <h2>Lunch</h2>
+      <h2>{t("MENU.TITLE2")}</h2>
       <div className="menu-card-container">
         {LunchDatas.map((data) => {
           const { price, currency } = convertPrice(data.price);
@@ -187,7 +187,7 @@ const Menu = () => {
         })}
       </div>
 
-      <h2>Pastries</h2>
+      <h2>{t("MENU.TITLE3")}</h2>
       <div className="menu-card-container">
         {PastriesDatas.map((data) => {
           const { price, currency } = convertPrice(data.price);
@@ -205,7 +205,7 @@ const Menu = () => {
         })}
       </div>
 
-      <h2>Beverages</h2>
+      <h2>{t("MENU.TITLE4")}</h2>
       <div className="menu-card-container">
         {BeveragesDatas.map((data) => {
           const { price, currency } = convertPrice(data.price);
