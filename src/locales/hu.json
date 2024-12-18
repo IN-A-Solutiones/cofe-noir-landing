@@ -77,6 +77,24 @@
     "SUMMARY2" : "Klasszikus cézár saláta grillezett csirkével és krutonnal.",
     "TITLE3" : "Paradicsomleves",
     "SUMMARY3" : "Krémes paradicsomleves friss bazsalikomlevéllel körítve."
+  },
+
+  "PASTRIESDATA" : {
+    "TITLE1" : "Croissant",
+    "SUMMARY1" : "A vajas és pelyhes croissant a nap bármely szakában tökéletes.",
+    "TITLE2" : "Csokoládé Eclair",
+    "SUMMARY2" : "Ízletes eclair gazdag csokoládé krémmel töltve.",
+    "TITLE3" : "Válogatott muffinok",
+    "SUMMARY3" : "Muffin válogatás áfonyás és csokoládés."
+  },
+
+  "BEVERAGESDATAS" : {
+    "TITLE1" : "Cappuccino",
+    "SUMMARY1" : "Gazdag és krémes cappuccino egy csipetnyi latte arttal.",
+    "TITLE2" : "Narancslé",
+    "SUMMARY2" : "Frissen facsart narancslé élénk ízzel.",
+    "TITLE3" : "Jeges tea",
+    "SUMMARY3" : "Jeges tea citromszeletekkel."
   }
 
 }

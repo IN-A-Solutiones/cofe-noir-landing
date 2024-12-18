@@ -92,13 +92,14 @@ const Menu = () => {
       price: "7.99",
     },
   ];
+
   const PastriesDatas = [
     {
       id: 1,
       image: CroissantsImage,
       alt: "Croissants",
-      title: "Croissants",
-      summary: "Buttery and flaky croissants perfect for any time of day.",
+      title: t("PASTRIESDATA.TITLE1"),
+      summary: t("PASTRIESDATA.SUMMARY1"),
       price: "4.99",
     },
 
@@ -106,8 +107,8 @@ const Menu = () => {
       id: 2,
       image: ChocolateEclairImage,
       alt: "Chocolate Eclair",
-      title: "Chocolate Eclair",
-      summary: "Decadent eclair filled with rich chocolate cream.",
+      title: t("PASTRIESDATA.TITLE2"),
+      summary: t("PASTRIESDATA.SUMMARY2"),
       price: "5.99",
     },
 
@@ -115,18 +116,19 @@ const Menu = () => {
       id: 3,
       image: AssortedMuffinsImage,
       alt: "Assorted Muffins",
-      title: "Assorted Muffins",
-      summary: "A selection of muffins including blueberry and chocolate chip.",
+      title: t("PASTRIESDATA.TITLE3"),
+      summary: t("PASTRIESDATA.SUMMARY3"),
       price: "3.99",
     },
   ];
+
   const BeveragesDatas = [
     {
       id: 1,
       image: CappuccinoImage,
       alt: "Cappuccino",
-      title: "Cappuccino",
-      summary: "Rich and creamy cappuccino with a touch of latte art.",
+      title: t("BEVERAGESDATAS.TITLE1"),
+      summary: t("BEVERAGESDATAS.SUMMARY1"),
       price: "3.49",
     },
 
@@ -134,8 +136,8 @@ const Menu = () => {
       id: 2,
       image: OrangeJuiceImage,
       alt: "Orange Juice",
-      title: "Orange Juice",
-      summary: "Freshly squeezed orange juice with a vibrant taste.",
+      title: t("BEVERAGESDATAS.TITLE2"),
+      summary: t("BEVERAGESDATAS.SUMMARY2"),
       price: "2.99",
     },
 
@@ -143,8 +145,8 @@ const Menu = () => {
       id: 3,
       image: IcedTeaImage,
       alt: "Iced Tea",
-      title: "Iced Tea",
-      summary: "Chilled iced tea served with lemon slices.",
+      title: t("BEVERAGESDATAS.TITLE3"),
+      summary: t("BEVERAGESDATAS.SUMMARY3"),
       price: "3.49",
     },
   ];
@@ -163,7 +165,6 @@ const Menu = () => {
               <p>
                 {price} {currency}
               </p>
-              <button>View Details</button>
             </div>
           );
         })}
@@ -181,7 +182,6 @@ const Menu = () => {
               <p>
                 {price} {currency}
               </p>
-              <button>View Details</button>
             </div>
           );
         })}
@@ -199,7 +199,6 @@ const Menu = () => {
               <p>
                 {price} {currency}
               </p>
-              <button>View Details</button>
             </div>
           );
         })}
@@ -217,7 +216,6 @@ const Menu = () => {
               <p>
                 {price} {currency}
               </p>
-              <button>View Details</button>
             </div>
           );
         })}

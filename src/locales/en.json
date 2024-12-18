@@ -76,6 +76,24 @@
     "SUMMARY2" : "Ensalada César clásica con pollo a la parrilla y crutones.",
     "TITLE3" : "Tomato Soup",
     "SUMMARY3" : "Creamy tomato soup garnished with fresh basil leaves."
+  },
+
+  "PASTRIESDATA" : {
+    "TITLE1" : "Croissants",
+    "SUMMARY1" : "Buttery and flaky croissants perfect for any time of day.",
+    "TITLE2" : "Chocolate Eclair",
+    "SUMMARY2" : "Decadent eclair filled with rich chocolate cream.",
+    "TITLE3" : "Assorted Muffins",
+    "SUMMARY3" : "A selection of muffins including blueberry and chocolate chip."
+  },
+
+  "BEVERAGESDATAS" : {
+    "TITLE1" : "Cappuccino",
+    "SUMMARY1" : "Rich and creamy cappuccino with a touch of latte art.",
+    "TITLE2" : "Orange Juice",
+    "SUMMARY2" : "Freshly squeezed orange juice with a vibrant taste.",
+    "TITLE3" : "Iced Tea",
+    "SUMMARY3" : "Chilled iced tea served with lemon slices."
   }
 
 }

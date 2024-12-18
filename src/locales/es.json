@@ -77,6 +77,24 @@
     "SUMMARY2" : "Ensalada César clásica con pollo a la parrilla y crutones.",
     "TITLE3" : "Sopa de tomate",
     "SUMMARY3" : "Sopa cremosa de tomate adornada con hojas de albahaca fresca."
+  },
+
+  "PASTRIESDATA" : {
+    "TITLE1" : "Croissants",
+    "SUMMARY1" : "Croissants mantecosos y hojaldrados, perfectos para cualquier momento del día.",
+    "TITLE2" : "Eclair de chocolate",
+    "SUMMARY2" : "Delicioso éclair relleno de rica crema de chocolate.",
+    "TITLE3" : "Muffins variados",
+    "SUMMARY3" : "Una selección de muffins, incluidos los de arándanos y los de chispas de chocolate."
+  },
+
+  "BEVERAGESDATAS" : {
+    "TITLE1" : "Capuchino",
+    "SUMMARY1" : "Capuchino rico y cremoso con un toque de arte latte.",
+    "TITLE2" : "Jugo de naranja",
+    "SUMMARY2" : "Jugo de naranja recién exprimido con un sabor vibrante.",
+    "TITLE3" : "Té helado",
+    "SUMMARY3" : "Té helado frío servido con rodajas de limón."
   }
 
 }
